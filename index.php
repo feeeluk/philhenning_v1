@@ -11,9 +11,6 @@
     // every page can have a different title
     $subTitle = "Home";
 
-    // include - site details
-    include($path."assets/includes/site_details.php"); 
-
     // include - header
     include($path."assets/includes/header.php");                        
 ?>

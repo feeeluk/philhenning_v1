@@ -1,7 +1,6 @@
 <?php
 
-    // include - site details
-    include($path."assets/includes/site_details.php"); 
+    include($path."assets/includes/config.php"); 
 
 ?>
 

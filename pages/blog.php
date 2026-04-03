@@ -8,10 +8,7 @@
             // ../../ = this page is located two folders up, etc.
     
     // every page can have a different title
-    $subTitle = "Blog";
-
-    // include - connect to db
-    include($path."assets/includes/db_connection.php");    
+    $subTitle = "Blog"; 
 
     // include - header
     include($path."assets/includes/header.php");                        
