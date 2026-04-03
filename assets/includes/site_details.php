@@ -1,35 +1,35 @@
 <?php
     
     // set website location
-    $site = "http://philhenning.atwebpages.com/";
+    $site = "http://philhenningv1.test/";
 
     // set site title
     $siteTitle = "TEST";
 
     switch($site)
     {
-        case "http://philhenning.atwebpages.com/":
+        case "http://philhenningv1.test":
         
-        $testingLink = "https://www.philhenning.co.uk".$_SERVER['REQUEST_URI'];
-        $portal = "http://portalstatic.awardspace.co.uk ";
-        $snowCompare = "http://snowcompare.atwebpages.com";
-        $snowCompareShop = "http://snowcompareshop.atwebpages.com";
-        $university = "http://philhenning.atwebpages.com/university/";
-        $treedata = "https://treedata.philhenning.co.uk";
-        $pointsAcademy = "http://academy.awardspace.co.uk";
-
+        $testingLink = "http://philhenningv1.test/";
+        $portal = "http://commercialsalesportal.test/";
+        $snowCompare = "http://snowcompare.test/";
+        $snowCompareShop = "http://snowcompareshop.test/";
+        $university = "http://philhennnigv1.test/university/";
+        $treedata = "http://treedatav1.test/";
+        $pointsAcademy = "http://pointsacademy.test/";
+        $philhenning = "http://philhenningv1.test/";
         break;
 
         case "https://www.philhenning.co.uk/":
     
-        $testingLink = "http://philhenning.atwebpages.com/".$_SERVER['REQUEST_URI'];
-        $portal = "http://portalstatic.awardspace.co.uk ";
-        $snowCompare = "http://snowcompare.atwebpages.com";
-        $snowCompareShop = "http://snowcompareshop.atwebpages.com";
-        $university = "http://philhenning.atwebpages.com/university/";
-        $treedata = "https://treedata.philhenning.co.uk";
-        $pointsAcademy = "http://academy.awardspace.co.uk";
-
+        $testingLink = "http://philhenningv1.test/";
+        $portal = "https://commercialsalesportal.pdhtechnology.com/";
+        $snowCompare = "https://snowcompare..pdhtechnology.com/";
+        $snowCompareShop = "https://snowcompareshop.pdhtechnology.com/";
+        $university = "https://philhennnigv1.pdhtechnology.com/university/";
+        $treedata = "https://treedatav1.pdhtechnology.com/";
+        $pointsAcademy = "https://pointsacademy.pdhtechnology.com/";
+        $philhenning = "https://philhenningv1.pdhtechnology.com/";
         break;
     }
 ?>

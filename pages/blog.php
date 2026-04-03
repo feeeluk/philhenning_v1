@@ -220,6 +220,8 @@
 
                     </table>
 
+                    <table>
+
                         <?php
                             // NOT logged in
                             if(!isset($_SESSION['blog_username']))

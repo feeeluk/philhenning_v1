@@ -6,55 +6,9 @@ Orange (main) = rgb(240, 135, 15) || HEX #F0870F
 Text = white
 */
 
-.container {
-    margin: 0 auto 0;
-    width: 900px;
-    text-align: center;
-    padding: 0px;
-}
-
-.logo {
-    padding-top: 20px;
-    margin: 0px;
-}
-
-.navigation {
-    padding: 0px 0px 5px 0px;
-    margin: 0px;
-    color: white;
-}
-
-.home {
-    text-align: left;
-    margin: 1px 0px 0px;
-    padding: 20px 190px 0px;
-    color: white;
-}
-
-.footer {
-    position: fixed;
-    margin: 0 auto 0;
-    width: 900px;
-    bottom: 0;  
-    font-size: 12px;
-    background-color: #404040;
-    color: white;
-}
-
-p {
-    color: red;
-}
-
-table.standard {
-    width: 100%;
+*{
+    margin: 0;
     padding: 0;
-    margin:0;
-    margin-bottom: 10px;
-    text-align: left;
-    border-spacing: 0;
-    border-width: 0;
-    border-color: white;
-    border-style: solid;
 }
 
 body {
@@ -63,60 +17,228 @@ body {
     font-size: 15px;
     letter-spacing: 0px;
     font-weight: 100;
-    margin: 0px;
-    padding: 0px;
 }
 
-section {
-    margin: 0px;
-    padding: 0px;
+.container {
+    margin: 0 auto 0;
+    width: 1000px;
+    text-align: center;
+    position: relative;
 }
 
-article {
-    margin: 0px;
-    padding: 0px;
+/* ****************************** */
+/* header */
+/* ****************************** */
+
+.headingSection{
+    position: fixed;
+    text-align: center;
+    background-color: #404040;
+    width: 1000px;
+    z-index: 100;
+}
+
+.logo {
+    padding-top: 20px;
+}
+
+.navigation {
+    padding: 0px 0px 5px 0px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* ****************************** */
+/*  */
+/* ****************************** */
+
+.home {
+    text-align: left;
+    margin: 1px 0px 0px;
+    padding: 20px 190px 0px;
+    color: white;
+}
+
+/* ****************************** */
+/* article*/
+/* ****************************** */
+
+#philhenning{
+    position: relative;
+    top: 130px;
+    margin-bottom: 50px;
 }
 
 
+/* ****************************** */
+/* Profile */
+/* ****************************** */
 
-th {
-    padding-left: 0px;
+#profileSection{
+    margin: 0 auto 0;
+    text-align: center;
+    width: 700px;
+}
+
+.profileParagraph {
+    color: white;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+/* ****************************** */
+/*  */
+/* ****************************** */
+
+td p {
+    color: black;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+p {
+    color: red;
+}
+
+/* ****************************** */
+/* skillsTable */
+/* ****************************** */
+
+.skillsTable{
+    width: 100%;
+    padding: 0;
+    margin:0;
+    margin-bottom: 30px;
+    text-align: left;
+    border-spacing: 0;
+    border-width: 0;
+    border-color: white;
+    border-style: solid;
+}
+
+.skillsTable th {
+    text-align: center;
     background: #777777;
-    height: 30px;
     color: #96B946;
+    height: 30px;  
 }
 
-th:nth-child(1){
-    padding-left: 5px;
+.skillsTable th:nth-child(1){
+    visibility: hidden;
 }
 
-tr:nth-child(even) {
+.skillsTable td:nth-child(1){
+    visibility: hidden;
+}
+
+.skillsTable th:nth-child(3){
+    visibility: hidden;
+}
+
+.skillsTable td:nth-child(5){
+    visibility: hidden;
+}
+
+.skillsTable tr:nth-child(even) {
     background: #cccccc;
 }
 
-tr:nth-child(odd) {
+.skillsTable tr:nth-child(odd) {
     background: #eeeeee;
 }
 
-tr {
-    margin:0;
-    padding:0;
-}
-
-td {
-    margin:0;
-    padding: 5px 0px 5px;
+.skillsTable td {
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: #444444;
     vertical-align: top;
 }
 
-td:nth-child(1){
+.skillsTable td:nth-child(2){
     padding-left: 5px;
 }
 
-td:nth-child(3){
-    padding-right: 50px;
+.skillsTable td:nth-child(3){
+    padding-left: 20px;
 }
+
+.skillsTable td:nth-child(4){
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.DevLogo {
+    height: 50px;
+    border: 0px;
+}
+
+/* ****************************** */
+/* experienceTable */
+/* ****************************** */
+
+.experienceTable{
+    width: 100%;
+    padding: 0;
+    margin:0;
+    margin-bottom: 30px;
+    text-align: left;
+    border-spacing: 0;
+    border-width: 0;
+    border-color: white;
+    border-style: solid;
+}
+
+.experienceTable th {
+    text-align: center;
+    background: #777777;
+    color: #96B946;
+    height: 30px;  
+}
+
+.experienceTable th:nth-child(1){
+    visibility: hidden;
+}
+
+.experienceTable td:nth-child(1){
+    visibility: hidden;
+}
+
+.experienceTable th:nth-child(3){
+    visibility: hidden;
+}
+
+.experienceTable td:nth-child(4){
+    visibility: hidden;
+}
+
+.experienceTable tr:nth-child(even) {
+    background: #cccccc;
+}
+
+.experienceTable tr:nth-child(odd) {
+    background: #eeeeee;
+}
+
+.experienceTable td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #444444;
+    vertical-align: top;
+}
+
+.experienceTable td:nth-child(2){
+    padding-left: 20px;
+}
+
+.experienceTable td:nth-child(3){
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* ****************************** */
+/*  */
+/* ****************************** */
 
 table.login {
     width: 40%;
@@ -179,75 +301,16 @@ div.right{
     border-color: #AAA;
 }
 
-/*  ################################################# */
-/*  FORMATING THE SKILLS MATRIX TABLE ON THE HOMEPAGE */
+/* ****************************** */
+/*  Footer */
+/* ****************************** */
 
-/* general settings for the class */
-.DevLogo {
-    vertical-align: middle;
-    text-align: center;
-}
-
-/* stop the fields inside the table from warping */ 
-table.DevLogo{
-    table-layout: fixed;
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-/* remove the table border and header border */ 
-table.DevLogo, th.DevLogo {
-    border-spacing: 0px;
-    border-width: 0px;
-    border-color: white;
-    border-style: solid;
-}
-
-/* add right borders for header cells */ 
-th.DevLogo {
-    border-right-spacing: 1px;
-    border-right-width: 1px;
-    border-right-color: white;
-    border-right-style: solid;
-}
-
-/* set the cell borders (not doubbling up) */ 
-td.DevLogo {
-    border-spacing: 0px;
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
-    border-color: white;
-    border-style: solid;
-}
-
-/*  setting for the logo */
-img.DevLogo {
-    height: 50px;
-    border: 0px;
-}
-
-/* first header cell (double colspan) */
-th.DevLogo:nth-child(1) {
-    text-align: left;
-}
-
-/* settings for general cells */
-td.DevLogo {
-    font-size: 20px;
-    padding: 2px 5px 2px;
-}
-
-/* second column cells */
-td.DevLogo:nth-child(2) {
-    text-align: left;
-    font-size: 15px;
-}
-
-/* third column cells */
-td.DevLogo:nth-child(3) {
+.footer {
+    position: fixed;
+    margin: 0 auto 0px;
+    width: 900px;
+    bottom: 0;  
     font-size: 12px;
-    overflow: auto;
-    white-space: normal;
+    background-color: #404040;
+    color: white;
 }

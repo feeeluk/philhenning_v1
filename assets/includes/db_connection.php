@@ -5,10 +5,24 @@
 	// set the default time to avoid stupid error on local machine - I should probably figure out how to change the setting on my Apache server
 	date_default_timezone_set('Europe/London');
 
-	$hostname = "fdb1033.awardspace.net"; 
-	$username = "4421836_feeel"; 
-	$password = "Ccyh68@c3145327"; 
-	$databaseName = "4421836_feeel";
+	//if it matches the live environment then set variables to server paths	
+	if($_SERVER['SERVER_NAME']==="philhenningv1.pdhtechnology.com")
+		{
+			// set server access variables 
+			$hostname = ""; 
+			$username = ""; 
+			$password = ""; 
+			$databaseName = "";
+		}
+	//detect the server name - if it matches the local testing environment then set variables to local paths
+	elseif($_SERVER['SERVER_NAME']==="philhenningv1.test")
+		{
+			// set server access variables 
+			$hostname = "localhost"; 
+			$username = "root"; 
+			$password = ""; 
+			$databaseName = "philhenning";
+		}
 
 	// create a variable that stores the mysql_connection details, and connects to the database
 	$connection = mysqli_connect($hostname, $username, $password, $databaseName) or die ("Unable to connect.".mysqli_connect_error());

@@ -31,15 +31,35 @@
                         <!-- ########################################################## -->
                         <tr>
                             <td colspan="1">Project
-                                <br />CarRace
+                                <br>Race
                             </td>
 
                             <td colspan="1">C#</td>
 
                             <td colspan="1">
-                                My second project. This time I wanted to create something to learn how to build on creating a list of objects and introduce a menu system to allow the user to control the flow of the program. I did this by using an enum for the menu items.
-                                <br>
-                                <br>I wanted to the user to be able to create 1 or more new cars (which would then get stored in a 'garage', the user could then chose to see what cars were in the garage, add some more cars, delete some cars, or edit the cars.)
+                                <p>
+                                    This has become my first 'real' C# project, and I am using it as a means of implementing things that I have learned.
+                                </p>
+
+                                <p>
+                                    This is modelled on race concept (multiple vehicles, multiple teams, multiple race circuits), which allows plenty of scope for create objects, lists, inhertance, polymorphism, interfaces, etc..<br>
+                                    Creating a 'larger' project then in turn introduces further challenges, such as menu design, and starts to explore "what does a user of this program want to achieve?".
+                                </p>
+
+                                <p>
+                                   <a target="_blank" href="https://dev.azure.com/philiphenning/Csharp%20-%20Race/_workitems/recentlyupdated/">Azure DevOps backlog</a>
+                                   <br>
+
+                                   <a target="_blank" href="https://miro.com/app/board/uXjVKUNctF8=/?share_link_id=294729311790">Whiteboard</a>
+                                   <br>
+
+                                   <a target="_blank" href="https://miro.com/app/board/uXjVKUNYNnA=/?moveToWidget=3458764586915561341&cot=14">Class Diagram</a>
+                                   <br>
+
+                                   <a target="_blank" href="https://1drv.ms/o/s!Ag9ZukAL9sZOog6eqf_5CXVrdJhz?e=JpOZvX">Notes</a>
+                                   <br>
+                                </p>
+
 
                             </td>
 
@@ -128,8 +148,10 @@
 
                         <!-- ########################################################## -->
                         <tr>
-                            <td colspan="1">Keytree Solutions
+                            <td colspan="1">Website
                                 <br />Proof of concept
+                                <br />'TreeData'
+                                <br />Keytree Solutions
                             </td>
 
                             <td colspan="1">PHP, SQL, HTML & CSS</td>
@@ -153,17 +175,24 @@
 
                         <!-- ########################################################## -->
                         <tr>
-                            <td colspan="1">Philhenning.co.uk
+                            <td colspan="1">Website
+                                <br />Philhenning.co.uk
                             </td>
 
                             <td colspan="1">PHP, SQL, HTML & CSS</td>
 
                             <td colspan="1">
-                                The site you are currently looking at is a project of mine that I am still regularly working on. I created it by hand using PHP, MySQL, HTML, CSS, Filezilla and Sublime Text, with support from Trello (backlog management) and Miro (whiteboarding).                                 
+                                <p>
+                                    The site you are currently looking at is a project of mine that I am still regularly working on. I created it by hand using PHP, MySQL, HTML, CSS, Filezilla and Sublime Text, with support from Trello (backlog management) and Miro (whiteboarding).
+                                </p>
+
+                                <p>
+                                    I have set up a Trello backlog for this website, which can be found <a href="https://trello.com/invite/b/zOxhDZ5X/ATTI97c5c7803294bddb4c108eec0778f299ED97D35C/philhenningcouk" target="_blank">here</a>
+                                </p>
                             </td>
 
                             <td colspan="1">
-                                <a href="<?php echo $treedata; ?>" target="_blank">
+                                <a href="<?php echo $philhenning; ?>" target="_blank">
                                     <img src="<?php echo $path; ?>assets/images/ProjectScreenshots/philhenning_screenshot.png" width="200">
                                 </a>
                             </td>
@@ -190,7 +219,9 @@
          
                         <!-- ########################################################## -->
                         <tr>
-                            <td colspan="1">Snow Compare
+                            <td colspan="1">Website
+                                <br />'Snow Compare'
+                                <br />MSc @ City
                             </td>
 
                             <td colspan="1">PHP, SQL, HTML & CSS</td>
@@ -208,7 +239,10 @@
                        
                         <!-- ########################################################## -->
                         <tr>
-                            <td colspan="1">Snow Compare Shop</td>
+                            <td colspan="1">Website
+                                <br />'Snow Compare Shop'
+                                <br />MSc @ City
+                            </td>
 
                             <td colspan="1">PHP, SQL, HTML & CSS</td>
 
@@ -225,7 +259,10 @@
 
                         <!-- ########################################################## -->
                         <tr>
-                            <td colspan="1">Portal
+                            <td colspan="1">Website
+                                <br />Proof of concept
+                                <br />'Portal'
+                                <br />BSN Medical
                             </td>
 
                             <td colspan="1">PHP, SQL, HTML & CSS</td>
@@ -235,7 +272,7 @@
                             </td>
 
                             <td colspan="1">
-                                <a href=<?php echo $portal; ?> target="_blank">
+                                <a href="<?php echo $portal; ?>" target="_blank">
                                     <img src="<?php echo $path; ?>assets/images/ProjectScreenshots/portal_screenshot.png" width="200">
                                 </a>
                             </td>

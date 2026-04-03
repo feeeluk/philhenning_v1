@@ -1,8 +1,8 @@
 # Rewrite to www
 Options +FollowSymLinks
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^philhenning.atwebpages.com[nc]
-RewriteRule ^(.*)$ http://philhenning.atwebpages.com/$1 [r=301,nc]
+RewriteCond %{HTTP_HOST} ^philhenning.co.uk[nc]
+RewriteRule ^(.*)$ http://www.philhenning.co.uk/$1 [r=301,nc]
 
 # Custom 404 errors
 ErrorDocument 404 /pages/errors/404.php
