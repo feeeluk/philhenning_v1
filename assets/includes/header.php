@@ -27,7 +27,7 @@
 
                 <!-- logo -->
                 <header class="logo">
-                    <img alt="logo" src="<?php echo $path; ?>assets/images/logo.png" />
+                    <img alt="logo" src="<?php echo $path . $logo; ?>" />
                 </header>
 
                 <!-- navigation -->

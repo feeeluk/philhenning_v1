@@ -16,9 +16,23 @@
 			$databaseName = "dbs15515737";
 			$site = "https://philhenningv1.pdhtechnology.com/";
 			$siteTitle = "Philhenning";
+			$logo = "assets/images/logo.png";
+		}
+
+	//if it matches the live environment then set variables to server paths	
+	elseif($_SERVER['SERVER_NAME']==="test-philhenningv1.pdhtechnology.com")
+		{
+			// set server access variables 
+			$hostname = "db5020158035.hosting-data.io"; 
+			$username = "dbu4441129"; 
+			$password = "ionCcyh68@c3145327os"; 
+			$databaseName = "dbs15515737";
+			$site = "https://test-philhenningv1.pdhtechnology.com/";
+			$siteTitle = "LIVE TEST";
+			$logo = "assets/images/logo_live_test.png";
 		}
 	//detect the server name - if it matches the local testing environment then set variables to local paths
-	elseif($_SERVER['SERVER_NAME']==="philhenningv1.test")
+	else if($_SERVER['SERVER_NAME']==="philhenningv1.test")
 		{
 			// set server access variables 
 			$hostname = "localhost"; 
@@ -26,7 +40,8 @@
 			$password = ""; 
 			$databaseName = "philhenning";
 			$site = "http://philhenningv1.test/";
-			$siteTitle = "TEST";
+			$siteTitle = "LOCAL TEST";
+			$logo = "assets/images/logo_local_test.png";
 		}
 
 	// create a variable that stores the mysql_connection details, and connects to the database
@@ -47,6 +62,18 @@
         break;
 
         case "https://philhenningv1.pdhtechnology.com/":
+    
+        // $testingLink = "http://philhenningv1.test/";
+        $portal = "https://commercialsalesportal.pdhtechnology.com/";
+        $snowCompare = "https://snowcompare.pdhtechnology.com/";
+        $snowCompareShop = "https://snowcompareshop.pdhtechnology.com/";
+        $university = "https://philhennnigv1.pdhtechnology.com/university/";
+        $treedata = "https://treedatav1.pdhtechnology.com/";
+        $pointsAcademy = "https://pointsacademy.pdhtechnology.com/";
+        $philhenning = "https://philhenningv1.pdhtechnology.com/";
+        break;
+
+		case "https://test-philhenningv1.pdhtechnology.com/":
     
         // $testingLink = "http://philhenningv1.test/";
         $portal = "https://commercialsalesportal.pdhtechnology.com/";
