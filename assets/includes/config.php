@@ -38,7 +38,7 @@
 			$hostname = "localhost"; 
 			$username = "phil"; 
 			$password = "Ccyh68@c3145327"; 
-			$databaseName = "philhenningv1";
+			$databaseName = "philhenning_v1";
 			$site = "http://philhenningv1.test/";
 			$siteTitle = "LOCAL TEST";
 			$logo = "assets/images/logo_local_test.png";
