@@ -36,9 +36,9 @@
 		{
 			// set server access variables 
 			$hostname = "localhost"; 
-			$username = "root"; 
-			$password = ""; 
-			$databaseName = "philhenning";
+			$username = "phil"; 
+			$password = "Ccyh68@c3145327"; 
+			$databaseName = "philhenningv1";
 			$site = "http://philhenningv1.test/";
 			$siteTitle = "LOCAL TEST";
 			$logo = "assets/images/logo_local_test.png";
