@@ -35,12 +35,12 @@
 	else if($_SERVER['SERVER_NAME']==="philhenningv1.test")
 		{
 			// set server access variables 
-			$hostname = "localhost"; 
-			$username = "phil"; 
-			$password = "Ccyh68@c3145327"; 
+			$hostname = "127.0.0.1"; 
+			$username = "root"; 
+			$password = ""; 
 			$databaseName = "philhenning_v1";
 			$site = "http://philhenningv1.test/";
-			$siteTitle = "LOCAL TEST";
+			$siteTitle = "LOCAL";
 			$logo = "assets/images/logo_local_test.png";
 		}
 
